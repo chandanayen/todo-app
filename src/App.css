@@ -1,0 +1,143 @@
+*{
+  margin:0;
+  padding: 0;
+  border:none;
+  outline: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family:'poppins',sans-serif;
+}
+body{
+  background: #80c0eb;
+}
+
+.App {
+  text-align: center;
+  padding: 5px;
+   background-color: black;;
+}
+.heading{
+  text-align: center;
+  color: rgb(161,160,160);
+  padding: 2.4rem 0;
+  border-radius: 4px;
+  font-family:'monoton';
+  text-transform: uppercase;
+  font-weight: 400;
+  
+ 
+}
+.inputField{
+  padding:5px 1px;
+  width: 100%;
+  border-radius:30px;
+  display: flex;
+  align-items: center;
+  background-color: #3e3e5a;
+  justify-content: space-between;
+
+}
+.inputField input{
+  background:transparent;
+  padding:10px;
+  color:rgb(161,160,160);
+  
+  
+  
+}
+.inputField::placeholder{
+ color:rgb(161,160,160);
+}
+.inputField button{
+  border-radius: 50%;
+  background-color: #3d79b1;
+  color:white;
+  width:35px;
+  height:35px;
+  display: flex;
+  align-items: center;justify-content: center;
+  transition-duration: all 0.1s;
+  cursor: pointer;
+}
+ button:hover{
+  transform: rotate(90deg);
+
+}
+.toDoList{
+  margin-top:2rem;
+}
+.toDoList span{
+  color:rgb(161,160,160);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+.toDoList .list-items{
+  margin-top:1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap:10px;
+}
+.list-items .items{
+  background: #44446b;
+  border-radius: 10px;
+  padding:14px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  color: gray;
+}
+.input[type='checkbox']{
+  padding: 5px;
+}
+.item-text{
+  display:flex;
+  align-items: center;
+  gap: 15px;
+}
+.notify{
+  text-align: center;
+  color: rgb(161,160,160);
+}
+.delete-icon{
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  border-radius: 50%;
+  padding:5px;
+  display: block;
+}
+.delete-icon:hover{
+  background: #3d79b1;
+  transition-duration: 0.2s;
+}
+.isChecked{
+  text-decoration:line-through;
+  opacity: 0.5;
+}
+.stats{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background: #282851;
+}
+
+/*@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
