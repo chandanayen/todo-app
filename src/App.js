@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <h1 className='heading'>
-        Task Master
+        Task Master - Chandana's Application
       </h1> 
       <InputTask  addTask={addTask}/>
       <div className='toDoList'>
